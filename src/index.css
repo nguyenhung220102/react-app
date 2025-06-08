@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -10,4 +10,35 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+:root {
+  --primary-color-purple: #7367F0;
+  --primary-color-white: #ffffff;
+  --label-primary-color: #6E6B7B;
+  --label-secondary-color: #5E5873;
+  --font-size-base: 12px;
+  --font-size-medium: 14px;
+  --font-size-large: 16px;
+  --font-weight-base: 400;
+  --font-weight-bold: 500;
+  --icon-color-facebook: #3B5998;
+  --icon-color-twitter: #00ACEE;
+  --icon-color-mail: #DB3236;
+  --icon-color-github: #211F1F;
+  --default-placeholder-color : #B9B9C3;
+  --asterisk-color: #EA5455;
+  --field-required-validation: #EA5455;
+  --field-invalid-validation: #EA5455;
+  --field-weak-validation: #EA5455;
+  --field-fair-validation: #E3A063;
+  --field-good-validation: #647FFF;
+  --field-strong-validation: #59BC87;
+  --section-divider-color: #E9EAEC;
+  --dashboard-background-color: #F8F8F8;
+}
+
+input::placeholder {
+  color: var(--default-placeholder-color); 
+  opacity: 1; 
 }
